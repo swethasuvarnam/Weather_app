@@ -3,7 +3,6 @@ import streamlit as st
 from config import API_KEY
 
 st.title("🌤️ Weather App")
-
 city = st.text_input("Enter City Name (e.g., London,UK or Delhi,IN):")
 city = city.strip().title()
 
